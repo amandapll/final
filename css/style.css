@@ -1,0 +1,755 @@
+/*** background img **/
+
+.containerfluid {
+width: 100%;
+height: 100vh;
+background: url(../images/home.png);
+background-size: cover;
+text-align: center;
+
+
+
+}
+
+.logo {
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 2%;
+	margin-bottom: 10px;
+
+
+}
+
+/*** contenedores*****/
+
+.contenedor2 {
+	width: 100%;
+
+}
+
+
+/*** nav ***/
+nav {
+width: 100%;
+margin: 0 auto;
+display: inline-block;
+text-align: center;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+
+
+}
+
+li {
+	display: inline-block;
+	font-size: 0.9em;
+	padding: 10px;
+	background-color: white;
+
+}
+
+.nav1 {
+	display: inline-block;
+	color: #ccd5db;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 1em;
+	background-color: transparent;
+
+
+}
+
+.active { 
+	color: #293c56;
+	font-weight: 600;
+	text-transform: uppercase;
+ }
+
+
+ .nav1:hover {
+ 	color: #293c56;
+ 	text-decoration: none;
+ }
+
+ .active:hover {
+ 	text-decoration: none;
+ }
+
+button {
+	border: none;
+}
+
+
+ /*** descripcion ****/
+.desc {
+	width: 600px;
+	margin: 0 auto;
+}
+
+
+ .title {
+ 	font-family: 'Quicksand', sans-serif;
+ 	font-size: 0.9em;
+ 	font-weight: 600;
+ 	text-align: center;
+ 	width: 600px;
+ 	margin: 0 auto;
+
+ }
+
+ .paragraph {
+ 	font-family: 'Quicksand', sans-serif;
+ 	font-size: 0.9em;
+ 	font-weight: 400;
+ 	text-align: center;
+ 	width: 420px;
+ 	margin: 0 auto;
+ 	background-color: white;
+ }
+
+
+
+ /***** why us ******/
+
+ .two {
+ 	margin-top: 2%;
+
+ 	}
+.col-4 {
+	padding: 0px;
+}
+
+
+ .why {
+ 	font-family: 'Permanent Marker', cursive;
+ 	color: white;
+ 	font-size: 1.1em;
+ 	margin-left: 20px;
+ 	background-color: rgba(172, 049, 038, 1);
+ 	border-radius: 10px;
+ 	padding: 5px 10px;
+
+
+ }
+
+ .why:hover {
+ 	text-decoration: none;
+ 	color: white;
+ 	background-color: rgba(172, 049, 038, 0.8)
+ 	
+ }
+
+.btn-info {
+	border-color: transparent;
+}
+
+.btn-info:hover {
+	background-color: rgba(172, 049, 038, 0.8);
+	border-color: transparent;
+}
+
+
+/****** why us modal *****/
+
+
+.modal-title {
+	font-family: 'Montserrat', sans-serif;
+	color: #293c56;
+	font-weight: 700;
+	margin: 0 auto;
+
+
+}
+
+.modal-body {
+	text-align: left;
+}
+
+
+/***** sign in modal ***********/
+
+.modal-dialog {
+	width: 400px;
+}
+
+.signinmodal {
+	background-color: #f0d4be;
+	text-align: left;
+
+}
+
+.modal-header {
+	border-bottom: transparent;
+}
+
+form {
+	margin: 0 auto;
+}
+
+.inform { 
+	background-color: #f0d4be;
+	color:#293c56;
+	text-align: left;
+	font-size: 0.9em;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+::-webkit-input-placeholder {
+font-family: 'Quicksand', sans-serif;
+
+}
+
+.form-control {
+	width: 95%;
+}
+
+input {
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.btnsign {
+	width: 95%;
+	background-color: #ac3126;
+	margin: 0 auto;
+	border: transparent;
+}
+
+.btnsign:hover {
+	background-color: #ac3126;
+	opacity: 0.8;
+}
+
+.signupbtn {
+	width: 100%;
+	text-decoration: underline;
+	text-decoration-color: #ac3126;
+	color: #ac3126;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.7em;
+	margin-top: 10px;
+	background-color: transparent;
+	text-align: center;
+
+}
+
+.signupbtn:hover {
+	opacity: 0.7;
+}
+
+.flecha {
+	background-color: #f0d4be;
+	width: 30px;
+    margin: 0 auto;
+}
+
+
+/******** ABOUT PAGE ************/
+ .foto1 {
+width: 100%;
+background-image: url(../images/about.png);
+height: 229px;
+
+}
+
+.contactbox{
+	margin-top: 80px;
+	padding-top: 20px;
+	background-color: #E3EBF2;
+	margin-left: 0;
+	border-radius:20px;
+
+}
+
+.row {
+	margin-top: 20px;
+}
+
+
+/**** cuerpos de texto ************/
+
+h1{
+
+font-family: 'Montserrat', sans-serif;
+font-size: 1.3em;
+color:#293C56;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.h11{
+width: 140px;
+padding-bottom: 10px;
+
+}
+
+.h12{
+width: 155px;
+}
+
+.h13{
+width: 260px;
+margin-left: -15px;
+
+}
+
+.h14{
+
+width: 100%;
+text-align: center;
+font-size: 1em;
+}
+
+.who {
+	text-align: center;
+}
+
+p{
+font-family: 'Quicksand', sans-serif;
+font-size: 0.9em;
+color:#293C56;
+}
+
+.parrafo1 {
+	margin-top: 50px;
+}
+
+
+
+/**** dots *****/
+
+.dots {
+	padding: 0px;
+}
+
+
+/******** sponsors ********/
+
+.sponsorr {
+margin: 0px;
+padding: 0px;
+margin-bottom: 5%;
+
+
+}
+.spon {
+	margin: 0px;
+	margin-right: 7.5%;
+	padding: 0px;
+}
+
+
+/************ spots *************/
+
+/******* tabs *************/
+
+.nav-tabs {
+	padding-left: 9%;
+	border-bottom: 1px solid #ac3126;
+	border-color: #ac3126;
+	
+}
+
+.tabsli {
+	padding: 0px;
+	background-color: transparent;
+}
+
+.nav-link {
+	color: #ac3126;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.nav-link:hover {
+	color: #ac3126;
+	opacity: 0.8;
+	border-color: #ac3126;
+}
+
+.nav-link.active {
+	border-color: #ac3126 #ac3126 #fff!important;
+}
+
+.card {
+	margin: 0 auto;
+	border-color: transparent;
+}
+
+
+
+
+/******** hotels ************/
+
+.btn-danger {
+	background-color: #fff;
+	border-color: #fff;
+	color: #293c56;
+}
+
+
+.btn-danger:hover {
+	background-color: #fff;
+	border-color: #fff;
+	color: #293c56;
+	opacity: 0.6;
+}
+
+.btn-danger.active, .btn-danger:active, .show>.btn-danger.dropdown-toggle {
+	background-color: #fff;
+	border-color: #fff;
+	color: #293c56;
+	opacity: 0.6;
+}
+
+.fa-star {
+	color: #ac3126;
+	font-size: 0.5em;
+}
+
+.dropdown-item {
+	text-transform: capitalize;
+}
+
+.isopen {
+    font-family: 'Quicksand', sans-serif;
+ 	font-size: 0.9em;
+ 	font-weight: 00;
+ 	text-transform: none;
+ 	padding-left: 10px;
+}
+
+.tiempo {
+	border: 1px solid #293c56;
+}
+
+.fa-search {
+	font-size: 0.5em;
+	padding: 5px 0px;
+}
+
+
+/****** my list *********/
+
+
+
+ /*** footer ****/
+
+
+.footer2 {
+	width: 100%;
+	height: 2vh;
+	position: absolute;
+	text-align: center;
+    bottom: 0;
+    position: absolute;
+    padding: 1px;
+   
+}
+
+.foot {
+	font-weight: 600;
+	
+}
+
+.foot2 {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8em;
+	padding: 0;
+	background-color: transparent;
+	padding: 0px 10px;
+	padding-top: 10px;
+
+
+}
+
+
+.footer1 {
+	width: 100%;
+    bottom: 0;
+    background-color: #293c56;
+    background: url(../images/footerabout.png);
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.nav2 {
+	color: #293c56;
+	background-color: transparent;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 0.8em;
+	margin: 0 auto;
+}
+
+ul {
+	margin-bottom: 0px;
+}
+
+
+
+
+#map {
+        height: 100%;
+      }
+      
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #description {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+      }
+
+      #infowindow-content .title {
+        font-weight: bold;
+      }
+
+      #infowindow-content {
+        display: none;
+      }
+
+      #map #infowindow-content {
+        display: inline;
+      }
+
+      .pac-card {
+        margin: 10px 10px 0 0;
+     
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: 'Quicksand', sans-serif;;
+      }
+
+      #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+      }
+
+      .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+      }
+
+      .pac-controls label {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+      #pac-input {
+        background-color: #fff;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding: 4px 10px;
+        text-overflow: ellipsis;
+        width: 400px;
+        border-radius: 5px;
+        border: 2px solid #ac3126;;
+      }
+
+      #pac-input:focus {
+        border-color: #ac3126;
+      }
+
+      #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+      }
+      #target {
+        width: 345px;
+      }
+
+      .button-group {
+  margin-bottom: 20px;
+}
+
+
+.comment {
+	width: 100%;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.posts li {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
+}
+
+.sideimg {
+	margin-bottom: 30px; 
+}
+
+.type {
+	font-size: 1.7em;
+	font-weight: 400;
+	margin-left: -2px;
+}
+
+.name {
+	font-size: 4.5em;
+	font-weight: 600;
+	margin-left: -5px;
+}
+
+.summary {
+	margin-top: 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400px;
+	font-size: 1.3em;
+}
+
+.add {
+	border: none;
+	background-color: #ccd5db;
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Quicksand', sans-serif;
+	align-items: center;
+
+}
+
+
+
+/*** OURTRAIN ***/
+
+
+h3 {
+font-family: 'Montserrat', sans-serif;
+font-size: 1em;
+color:#A33125;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+ .foto2 {
+width: 100%;
+background-image: url(../images/ourtrain.png);
+height: 229px;
+
+}
+
+.iconos{
+	margin-right: 10px;
+}
+
+.segline {
+	margin-top: -20px;
+	margin-left: 33px;
+}
+
+.parrafotrain{
+	text-align: justify;
+	padding-right: 30px;
+
+}
+
+
+.contactbox{
+	padding-left: 30px;
+	
+}
+
+.botontrain {
+	margin:0 auto;
+	padding-top: 20px;
+	margin-bottom: 80px;
+}
+
+
+.maptrain 
+{
+flex-wrap: wrap; 
+}
+
+.maptrain2 {
+padding-top: 50px;
+
+}
+
+
+.button2 {
+	background-color: red;
+	color:white;
+}
+
+.buybutton {
+ 	font-family: 'Permanent Marker', cursive;
+ 	color: white;
+ 	font-size: 2.1em;
+ 	margin-left: 20px;
+ 	background-color: rgba(172, 049, 038, 1);
+ 	border-radius: 10px;
+ 	padding: 5px 10px;
+
+
+ }
+
+ .buybutton:hover {
+ 	text-decoration: none;
+ 	color: white;
+ 	background-color: rgba(172, 049, 038, 0.8)
+ 	
+ }
+
+.inbuy {
+	color:#293c56;
+	text-align: left;
+	font-size: 0.9em;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.buyform {
+	width: 45%;
+	display: inline-block;
+}
+
+
+
+/*hotel*/
+
+.mapimg {
+	margin-bottom: 100px;
+}

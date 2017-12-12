@@ -1,0 +1,161 @@
+<head>
+	<title>LOCALS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Quicksand:300,400,500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div class="containerfluid">
+
+	<!-- logo -->
+		<div class="logo"><img class="logo" src="images/logo.png"></div>
+		
+
+	<!-- nav links -->
+		<nav>
+			<ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a class="nav1" href="about.html">About</a></li>
+				<li><a class="nav1" href="train.html">Our Train</a></li>
+				<li><a class="nav1" href="spots.html">Spots</a></li>
+				<li><a class="nav1" href="mylist.html">My List</a></li>
+				<li><a class="nav1" href="map.html">Map</a></li>
+				<li><button type="button" class="nav1" data-toggle="modal" data-target="#signin">sign in</button></li>
+			</ul>
+		</nav>
+
+<!-- descripcion -->
+		<div class="desc">
+			<div class="title">THE BEST WAY TO TRAVEL IS TO HANG WITH THE LOCALS. </div>
+			<div class="paragraph">Party aboard our train and have a blast getting to know Dominican Republic’s popular Zona Colonial.</div>
+		</div>
+
+<!-- botton why us -->
+<div class="row two">
+<div class="col-4 "></div>
+<div class="col-4 buttons">
+<button type="button" class="why" data-toggle="modal" data-target="#myModal">why us?</button>
+<a class="why" href="train.html"> Use our train</a>
+<a class="why" href="spots.html"> Go solo</a></div>
+<div class="col-4"></div>
+</div>
+
+<!-- why us modal -->
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Why us?</h4>
+      </div>
+      <div class="modal-body">
+        <p>An anonymous genius once said: "If you want to be happy, learn to enjoy the simplest things."<br><br>
+That is why at LOCALS we guarantee that with us, your visit to the Zona Colonial will be simply unique. You can learn and have fun at the same time. Our train, apart from being faster and safer for the welfare of our customers, is a touring party that never ends; (beer, mamajuana, quipes, cativias, pastries, music and entertainers) are some of the things you can enjoy board our train.<br><br>
+Our train will always be on the move along a pre-designed route by us. In such a way that you can board and onboard where you want.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- sign in modal -->
+<div id="signin" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content signinmodal">
+      <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Sign In</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <h5 class="inform">Email</h5>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+     <h5 class="inform">Password</h5>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Remember Me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary btnsign" data-dismiss="modal">Sign In</button>
+</form>
+        <button type="button" class="signupbtn" data-toggle="modal" data-target="#signup" data-dismiss="modal">Don't have an account? Sign up now.</button>
+
+      </div>
+     
+    </div>
+
+  </div>
+</div>
+
+
+<!-- sign up modal -->
+<div id="signup" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content signinmodal">
+      <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Sign Up</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+  <h5 class="inform">Name</h5>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+
+  <div class="form-group">
+    <h5 class="inform">Email</h5>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+
+  <div class="form-group">
+     <h5 class="inform">Password</h5>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+        <div class="form-group">
+     <h5 class="inform">Confirm password</h5>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+       <button type="submit" class="btn btn-primary btnsign" data-dismiss="modal">Sign Up</button>
+</form>
+        <button type="button" class="signupbtn" data-toggle="modal" data-target="#signin" data-dismiss="modal">Already have an account? Sign in.</button>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- footer -->
+
+<footer class="footer2"> <p class="foot">All rights reserved Locals 2017 </p></footer>
+
+	</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
